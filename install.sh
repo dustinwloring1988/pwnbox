@@ -8,7 +8,7 @@ mkdir ~/.config/powershell/
 cp ~/gitclones/pwnbox/config/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 # Move background to a useable folder
-sudo cp ~/gitclones/backgrounds/pwnbox/htb.jpg /usr/share/backgrounds/
+sudo cp ~/gitclones/pwnbox/backgrounds/htb.jpg /usr/share/backgrounds/
 
 # Move Black-Lime Flat Icons to a useable folder
 sudo cp -R ~/gitclones/pwnbox/Material-Black-Lime-Numix-FLAT/ /usr/share/icons/
@@ -29,9 +29,3 @@ sudo apt install sublime-text
 
 # Backup the bashrc file
 cp ~/.bashrc ~/.bashrc.bak
-
-# Copy over our bashrc file
-cp /config/.bashrc ~/.bashrc
-
-# Update our teminal to use this file
-source ~/.bashrc
