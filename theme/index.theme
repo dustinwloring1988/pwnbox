@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=HackTheBox
 Type=X-GNOME-Metatheme
-Comment=
+Comment=Hack the box clone
 
 [X-GNOME-Metatheme]
 GtkTheme=ARK-Dark
