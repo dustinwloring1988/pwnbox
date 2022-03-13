@@ -5,7 +5,7 @@ sudo cp -R icons/ /opt
 
 # Add a custom ps1 profile
 mkdir ~/.config/powershell/
-cp ~/gitclones/pwnbox/config/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
+cp ~/gitclones/pwnbox/configs/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 # Move background to a useable folder
 sudo cp ~/gitclones/pwnbox/backgrounds/htb.jpg /usr/share/backgrounds/
@@ -29,3 +29,7 @@ sudo apt install sublime-text
 
 # Backup the bashrc file
 cp ~/.bashrc ~/.bashrc.bak
+
+# Replace the exisiting bashrc file with ours and refresh
+sudo cp ~/gitclones/pwnbox/configs/.bashrc ~/.bashrc
+source ~/.bashrc
