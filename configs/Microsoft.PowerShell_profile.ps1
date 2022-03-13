@@ -1,8 +1,8 @@
 function vpnStats
 {
-    $htbip = (/opt/vpnbash.sh)
+    $htbip = (/opt/HTB/vpnbash.sh)
     if ($htbip -like '*10.*') {
-        $vpnserver = (/opt/vpnserver.sh)
+        $vpnserver = (/opt/HTB/vpnserver.sh)
         return "`e[32m[`e[34m$vpnserver`e[32m]─[`e[37m$htbip`e[32m]─"
     } else {
         return ""
